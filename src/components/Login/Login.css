@@ -52,6 +52,15 @@ form img{
     float: right;
     cursor: pointer;
 }
+.forgot-pass{
+    text-decoration: none;
+    color: #686687;
+    font-weight: 700;
+}
+.forgot-pass:hover{
+    text-decoration: underline;
+    color:#1334B3;
+}
 
 /* Banner Area  */
 

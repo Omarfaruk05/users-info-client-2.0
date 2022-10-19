@@ -78,7 +78,7 @@ const Login = () => {
                         <input onClick={toastAndError} type="submit" value="Login" />
                     </div>
                 </form>
-                <small className='text-black-50'>Forgot Password?</small>
+                <small><a className='forgot-pass' href="#forgetPass">Forgot Password?</a></small>
                 <div className='footer d-none d-md-flex'>
                     <div>
                         <p>
