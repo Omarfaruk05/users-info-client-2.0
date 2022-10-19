@@ -14,7 +14,10 @@ p span{
 
 /* Login Area  */
 .login{
-    width: 42%
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 form div{
     max-width: 567px; 
@@ -53,7 +56,6 @@ form img{
 /* Banner Area  */
 
 .blue-banner{
-    width: 58%;
     background-color: #1334B3;
     height: 100vh;
 }
