@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p span{
+    line-height: 3px;
+}
+.login-container{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1920px;
+    max-height: 1080px;
+}
+
+/* Login Area  */
+.login{
+    width: 42%
+}
+form div{
+    max-width: 567px; 
+    margin: 0 auto;
+}
+form div input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 13px 30px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+}
+form div input:focus{
+    outline: 2px solid #1334B3;
+    border: 1px solid #1334B3;
+}
+form div input[type=submit]{
+    background-color: #1334B3;
+    color: white;
+    font-weight: 800;
+}
+form img{
+    position: relative;
+    top: 33px;
+    left:10px;
+    float: left;
+}
+#eye{
+    position: relative;
+    top: 37px;
+    left: -10px;
+    float: right;
+    cursor: pointer;
+}
+
+/* Banner Area  */
+
+.blue-banner{
+    width: 58%;
+    background-color: #1334B3;
+    height: 100vh;
+}
+.blue-banner-content{
+   width: 75%;
+   margin: 0 auto;
+}
+
+/*Footer Area*/
+.footer{
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    bottom: 48px;
+    display: flex;
+    justify-content: center;
+    width: 42%;
+}
+.footer p{
+    line-height: 2px;
+}
