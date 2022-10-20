@@ -29,14 +29,13 @@ const Login = () => {
         const email = event.target.name.value;
         const password = event.target.password.value;
         const data = JSON.stringify({email, password});
-        console.log(data)
 
         fetch("https://reqres.in/api/login", {
             method:"POST",
             headers:{
                 'content-type': 'application/json'
             },
-            body: data
+            body: data,
 
         })
         .then(res=> res.json())
